@@ -1,4 +1,4 @@
-import { supabase } from "../config/supabase";
+import { supabase } from "../config/supabase.js";
 
 export const signUpUser = async(req ,res) =>{
     try{
